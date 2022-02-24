@@ -3,4 +3,4 @@ Under Construction
 
 last updated: 2022.03
 
-- [MyPortfolio](https://DeepLearnerSC.github.io/) - It's deployed here!
+- [MyPortfolio](https://BravoChos.github.io/) - It's deployed here!
