@@ -1,13 +1,19 @@
-// import logo from "./logo.svg";
+import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+
+import Resume from "./screens/Resume";
 import "./App.css";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <div className="spans">Hello! I am Song Cho.</div>
-      <span>Under Construction...</span>
-    </div>
+    <Router>
+      <body>
+        <Routes>
+          <Route exact path="/" element={<Resume />} />
+        </Routes>
+      </body>
+    </Router>
   );
-}
+};
 
 export default App;
