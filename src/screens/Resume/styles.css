@@ -19,3 +19,40 @@
   padding: 20px 0px;
   line-height: 1.2;
 }
+
+.resume-card {
+  display: flex;
+  padding: 30px 0 60px 0;
+  border-bottom: 1px solid #d9d8d8;
+}
+
+.resume-workplace {
+  flex: 1;
+  font-size: 2rem;
+  font-weight: bold;
+  flex-direction: column;
+}
+.resume-workExperience {
+  flex: 2;
+}
+.resume__workplace__subtitle {
+  font-weight: bold;
+}
+
+.resume__workplace__body {
+  padding: 6px 0 14px 0;
+}
+.section__title {
+  font-size: 3rem;
+  font-weight: bold;
+  padding: 20px 0px;
+}
+.subcard {
+  font-size: 1rem;
+  /* font-weight: bold; */
+}
+.job-role {
+  padding: 10px 0;
+  font-size: 1rem;
+  font-weight: normal;
+}
