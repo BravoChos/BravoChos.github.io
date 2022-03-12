@@ -7,3 +7,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
 }
+
+.period__mark {
+  color: #3a7bd5;
+}
