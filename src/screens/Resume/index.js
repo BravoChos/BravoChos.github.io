@@ -44,7 +44,7 @@ const Resume = (props) => {
           <div className="resume-workplace">
             Humanscape<span className="period__mark">.</span>
             <div className="job-role">
-              Backend & DevOps Engineer
+              Backend Engineer
               <br />
               Mar 2022 - Current
             </div>
@@ -53,35 +53,43 @@ const Resume = (props) => {
           <div className="resume-workExperience">
             <div className="subcard">
               <div className="resume-workplace">
-                Virtual Guide
+                Backend features for MamiTalk
                 <span className="period__mark">.</span>
               </div>
-              <div className="job-role">2020.09 - Current</div>
-              <div className="resume__workplace__subtitle">
+              <div className="job-role">Mar 2022 - Current</div>
+              {/* <div className="resume__workplace__subtitle">
                 Description<span className="period__mark">.</span>
               </div>
               <div className="resume__workplace__body">
-                Currently developing virtual guide service which allows bulter
-                to support traveler virtualy through chat. Thanks to our gps
-                feature, butler can track traveler's location and other features
-                such as sending photos, sharing map, and push notifications
-                allow both butler and traveler wonderful user experience.
+             #흔치 않은 기술적 챌린지들을 해결하는 경험을 할 수 있어요.
+                마미톡은 수십만명의 산모들을 대상으로 쇼핑몰의 타임세일,
+                커뮤니티의 타임 이벤트를 진행하고 있는 만큼 수많은 기술적
+                챌린지들을 감당하고 해결해 나가야 하는 서비스예요.
+                인도네시아에서 수백만명의 산모들이 서비스를 이용하게 될 것인
+                만큼, 앞으로 기술적 안정성은 더욱 중요해질 거예요. 이런
+                챌린지들에 도전하는 것을 즐기는 분이라면, 폭발적으로 성장할 수
+                있어요! #끝내주는 데이터들을 다룰 수 있어요. 마미톡은 주별
+                리텐션이 50%나 될 정도로 활성화율이 높은 서비스예요. 그러다 보니
+                쇼핑몰 구매 데이터, 커뮤니티 활동 데이터 등 앱 전반적으로
+                엄청나게 많은 데이터가 발생하고 있죠. 앱에 저장되는 초음파
+                동영상 데이터 역시 매월 수만 건이 쌓이고 있어요. 이런 풍부한
+                데이터들을 활용해서 멋진 제품을 만들어 나가는 경험을 할 수
+                있어요.
+                
               </div>
               <div className="resume__workplace__subtitle">
                 What did I do<span className="period__mark">.</span>
               </div>
               <div className="resume__workplace__body">
-                - Implement authentication to our app using firebase.
-                <br />- Social login available such as google, facebook, and
-                apple.
-                <br />- Add new features for chat service (ex. map, image, and
-                editor)
-              </div>
+                • 앱내 WISA 독립몰 유지보수
+                <br />• NodeJS 기반 마미톡 자체 쇼핑몰 개발
+                <br />• 건강하고 즐거운 개발 문화를 만드는데 기여
+              </div> */}
               <div className="resume__workplace__subtitle">
                 Tech Stack<span className="period__mark">.</span>
               </div>
               <div className="resume__workplace__body">
-                React Native, Firebase, Google Cloud API, AWS DynamoDB
+                Node.JS, Socket, AWS RDS (Mysql), Jenkins, AWS, Sentry
               </div>
             </div>
           </div>
@@ -103,7 +111,7 @@ const Resume = (props) => {
                 Virtual Guide
                 <span className="period__mark">.</span>
               </div>
-              <div className="job-role">2020.09 - Current</div>
+              <div className="job-role">Sep 2020 - Current</div>
               <div className="resume__workplace__subtitle">
                 Description<span className="period__mark">.</span>
               </div>
@@ -137,7 +145,7 @@ const Resume = (props) => {
                 Spot Service
                 <span className="period__mark">.</span>
               </div>
-              <div className="job-role">2019.11 - 2020.08</div>
+              <div className="job-role">Nov 2019 - Aug 2020</div>
               <div className="resume__workplace__subtitle">
                 Description<span className="period__mark">.</span>
               </div>
@@ -170,7 +178,7 @@ const Resume = (props) => {
                 Travut MVP
                 <span className="period__mark">.</span>
               </div>
-              <div className="job-role">2019.06 - 2019.10</div>
+              <div className="job-role">Jun 2019 - Oct 2019</div>
               <div className="resume__workplace__subtitle">
                 Description<span className="period__mark">.</span>
               </div>
@@ -200,7 +208,7 @@ const Resume = (props) => {
                 Travut Prototype
                 <span className="period__mark">.</span>
               </div>
-              <div className="job-role">2019.03 - 2019.05</div>
+              <div className="job-role">Mar 2019 - May 2019</div>
               <div className="resume__workplace__subtitle">
                 Description<span className="period__mark">.</span>
               </div>
@@ -241,8 +249,7 @@ const Resume = (props) => {
           <div className="resume-workExperience">
             <div className="subcard">
               <div className="resume-workplace">
-                Developed Web Application for IoT based Smart Farm Web
-                Application
+                IoT based Smart Farm Web
                 <span className="period__mark">.</span>
               </div>
               <div className="job-role"> Oct 2018-Feb 2019</div>
@@ -250,7 +257,7 @@ const Resume = (props) => {
                 Description<span className="period__mark">.</span>
               </div>
               <div className="resume__workplace__body">
-                It monitors various equipment sensors and display the current
+                monitors various equipment sensors and display the current
                 status in table form. It can control/update the sensor's setting
                 value, and To-do-list alert feature
               </div>
@@ -273,21 +280,21 @@ const Resume = (props) => {
             </div>
           </div>
         </div>
-        {/*
         <div className="resume-card">
           <div className="resume-workplace">
             TrueShort<span className="period__mark">.</span>
             <div className="job-role">
               Backend Developer Intern
               <br />
-              Oct 2018-Mar 2019
+              Aug 2018 - Oct 2018
             </div>
           </div>
 
           <div className="resume-workExperience">
             <div className="resume-workplace">
-              Developed Web Application for IoT based Smart Farm Web Application
+              Trushort Backend API<span className="period__mark">.</span>
             </div>
+            <div className="job-role">Aug 2018 - Oct 2018</div>
             <div className="resume__workplace__subtitle">
               Description<span className="period__mark">.</span>
             </div>
@@ -306,29 +313,35 @@ const Resume = (props) => {
             <div className="resume__workplace__body">Flask, MySql</div>
           </div>
         </div>
+
         <div className="resume-card">
           <div className="resume-workplace">
-            KRICT<span className="period__mark">.</span>
+            KRICT
+            <span className="period__mark">.</span>
             <div className="job-role">
-              Backend Developer Intern
+              Researcher & Data Analyst
               <br />
-              Oct 2018-Mar 2019 (5 mos)
+              Jul 2014 - Sep 2017
             </div>
           </div>
 
           <div className="resume-workExperience">
-            <div className="resume__workplace__body">
-              Developed Web Application for IoT based Smart Farm Web Application
+            <div className="resume-workplace">
+              MSDS & Molecular Modeling
+              <span modelingspan className="period__mark">
+                .
+              </span>
             </div>
-            <div>Description.</div>
-            <div>What did I do.</div>
-            <div>Tech Stack.</div>
-            <div>
-              ⬥ Developed Restful API which provides stock related information.
+            <div className="job-role">Jul 2014 - Sep 2017</div>
+            <div className="resume__workplace__subtitle">
+              Description<span className="period__mark">.</span>
+            </div>
+            <div className="resume__workplace__body">
+              ⬥ Conducted mass production process of horticultural granules, and
+              carried out studies on cost reduction and efficient maintenance
             </div>
           </div>
         </div>
-                */}
       </div>
     </div>
   );
