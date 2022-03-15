@@ -1,6 +1,8 @@
 import React from "react";
 import "./styles.css";
 
+import { Education } from "../../components/Resume";
+
 const TitleBar = () => {
   return (
     <div
@@ -342,6 +344,9 @@ const Resume = (props) => {
             </div>
           </div>
         </div>
+
+        <SectionTitle title={"Education"} />
+        <Education />
       </div>
     </div>
   );
