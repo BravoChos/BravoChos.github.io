@@ -1,7 +1,7 @@
 import React from "react";
 import "./styles.css";
 
-import { Education } from "../../components/Resume";
+import { Certification, Education } from "../../components/Resume";
 
 const TitleBar = () => {
   return (
@@ -347,6 +347,8 @@ const Resume = (props) => {
 
         <SectionTitle title={"Education"} />
         <Education />
+        <SectionTitle title={"Certification"} />
+        <Certification />
       </div>
     </div>
   );

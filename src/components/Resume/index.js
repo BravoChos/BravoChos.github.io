@@ -1,3 +1,4 @@
+import { Certification } from "./certification";
 import { Education } from "./education";
 
-export { Education };
+export { Certification, Education };
