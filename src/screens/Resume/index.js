@@ -242,7 +242,7 @@ const Resume = (props) => {
           <div className="resume-workplace">
             Suhwoo Co<span className="period__mark">.</span>
             <div className="job-role">
-              Frontend Developer
+              Fullstack Developer
               <br />
               Oct 2018-Feb 2019
             </div>
