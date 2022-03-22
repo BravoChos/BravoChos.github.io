@@ -1,3 +1,5 @@
+import { Certification } from "./certification";
 import { Education } from "./education";
+import { Experience } from "./experience";
 
-export { Education };
+export { Certification, Education, Experience };

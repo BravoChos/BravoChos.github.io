@@ -1,7 +1,7 @@
 import React from "react";
 import "./styles.css";
 
-import { Education } from "../../components/Resume";
+import { Certification, Education, Experience } from "../../components/Resume";
 
 const TitleBar = () => {
   return (
@@ -120,9 +120,9 @@ const Resume = (props) => {
               <div className="resume__workplace__body">
                 Currently developing virtual guide service which allows bulter
                 to support traveler virtualy through chat. Thanks to our gps
-                feature, butler can track traveler's location and other features
+                feature, VUTLER can track traveler's location and other features
                 such as sending photos, sharing map, and push notifications
-                allow both butler and traveler wonderful user experience.
+                allow both VUTLER and traveler wonderful user experience.
               </div>
               <div className="resume__workplace__subtitle">
                 What did I do<span className="period__mark">.</span>
@@ -242,7 +242,7 @@ const Resume = (props) => {
           <div className="resume-workplace">
             Suhwoo Co<span className="period__mark">.</span>
             <div className="job-role">
-              Frontend Developer
+              Fullstack Developer
               <br />
               Oct 2018-Feb 2019
             </div>
@@ -347,6 +347,10 @@ const Resume = (props) => {
 
         <SectionTitle title={"Education"} />
         <Education />
+        <SectionTitle title={"Experience"} />
+        <Experience />
+        <SectionTitle title={"Certification"} />
+        <Certification />
       </div>
     </div>
   );
