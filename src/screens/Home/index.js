@@ -46,7 +46,7 @@ const Resume = (props) => {
           <div className="resume-workplace">
             Humanscape<span className="period__mark">.</span>
             <div className="job-role">
-              Software Engineer
+              Backend Engineer
               <br />
               Mar 2022 - Current
             </div>
@@ -55,7 +55,7 @@ const Resume = (props) => {
           <div className="resume-workExperience">
             <div className="subcard">
               <div className="resume-workplace">
-                Backend features for MOMMYTALK
+                Backend features for MamiTalk
                 <span className="period__mark">.</span>
               </div>
               <div className="job-role">Mar 2022 - Current</div>
@@ -113,7 +113,7 @@ const Resume = (props) => {
                 Virtual Guide
                 <span className="period__mark">.</span>
               </div>
-              <div className="job-role">Sep 2020 - Feb 2022</div>
+              <div className="job-role">Sep 2020 - Current</div>
               <div className="resume__workplace__subtitle">
                 Description<span className="period__mark">.</span>
               </div>
