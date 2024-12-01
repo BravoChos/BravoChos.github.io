@@ -1,4 +1,4 @@
-import { SNU, UCLA, PCC } from "../../icons";
+// import { SNU, UCLA, PCC } from "../../icons";
 import "./styles.css";
 
 const data = [
@@ -28,12 +28,12 @@ export const Education = () => {
         const { name, major, period, logo } = card;
         let logoIcon;
 
-        if (logo === "SNU") logoIcon = <SNU width={80} height={80} />;
-        if (logo === "UCLA") logoIcon = <UCLA width={80} height={80} />;
-        if (logo === "PCC") logoIcon = <PCC width={120} height={80} />;
+        // if (logo === "SNU") logoIcon = <SNU width={80} height={80} />;
+        // if (logo === "UCLA") logoIcon = <UCLA width={80} height={80} />;
+        // if (logo === "PCC") logoIcon = <PCC width={120} height={80} />;
         return (
           <div className="education__card" key={"card" + index}>
-            <div className="education__card__logo">{logoIcon}</div>
+            {/* <div className="education__card__logo">{logoIcon}</div> */}
             <div className="education__card__content">
               {name}
               <span className="period__mark">.</span>
