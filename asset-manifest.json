@@ -1,23 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.50f12d7c.chunk.css",
-    "main.js": "/static/js/main.3ab12361.chunk.js",
-    "main.js.map": "/static/js/main.3ab12361.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.f5fa2b94.js",
-    "runtime-main.js.map": "/static/js/runtime-main.f5fa2b94.js.map",
-    "static/js/2.78d60869.chunk.js": "/static/js/2.78d60869.chunk.js",
-    "static/js/2.78d60869.chunk.js.map": "/static/js/2.78d60869.chunk.js.map",
+    "main.css": "/static/css/main.6be76c4d.css",
+    "main.js": "/static/js/main.e2505e29.js",
+    "static/media/ucla.png": "/static/media/ucla.eba5c9bb2bd052949a31.png",
+    "static/media/snu.png": "/static/media/snu.a53b40207259d3df9eb0.png",
+    "static/media/resume_20241216.pdf": "/static/media/resume_20241216.45bcb401f3f47c9a160c.pdf",
     "index.html": "/index.html",
-    "static/css/main.50f12d7c.chunk.css.map": "/static/css/main.50f12d7c.chunk.css.map",
-    "static/js/2.78d60869.chunk.js.LICENSE.txt": "/static/js/2.78d60869.chunk.js.LICENSE.txt",
-    "static/media/pcc.d425c69d.jpg": "/static/media/pcc.d425c69d.jpg",
-    "static/media/snu.bd8cd3ad.svg": "/static/media/snu.bd8cd3ad.svg",
-    "static/media/ucla.f0aa39f8.svg": "/static/media/ucla.f0aa39f8.svg"
+    "main.6be76c4d.css.map": "/static/css/main.6be76c4d.css.map",
+    "main.e2505e29.js.map": "/static/js/main.e2505e29.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.f5fa2b94.js",
-    "static/js/2.78d60869.chunk.js",
-    "static/css/main.50f12d7c.chunk.css",
-    "static/js/main.3ab12361.chunk.js"
+    "static/css/main.6be76c4d.css",
+    "static/js/main.e2505e29.js"
   ]
 }
