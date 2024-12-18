@@ -1,7 +1,6 @@
-// import { SNU, UCLA, PCC } from "../../icons";
 import { Fragment } from "react";
 import { SectionTitle } from "../sectionTitle";
-import { Logo } from "../logo";
+import { Logos } from "../logos";
 import "./styles.css";
 
 import SNU_LOGO from "../../assets/img/snu.png";
@@ -22,7 +21,7 @@ const data = [
   },
 ];
 
-export const Education = () => {
+export const Educations = () => {
   return (
     <Fragment>
       <SectionTitle title={"Education"} />
@@ -36,7 +35,7 @@ export const Education = () => {
           // if (logo === "PCC") logoIcon = <PCC width={120} height={80} />;
           return (
             <div className="education__card" key={"card" + index}>
-              <Logo file={file} width={80} height={80} />
+              <Logos file={file} width={80} height={80} />
               <div className="education__card__content">
                 {name}
                 <span className="period__mark">.</span>
