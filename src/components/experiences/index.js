@@ -1,4 +1,6 @@
 import "./styles.css";
+import { SectionTitle } from "../sectionTitle";
+import { Fragment } from "react";
 
 const experiences = [
   {
@@ -17,21 +19,15 @@ const experiences = [
   },
 ];
 
-export const Experience = () => {
+export const Experiences = () => {
   return (
-    <div>
+    <Fragment>
+      <SectionTitle title={"Experiences"} />
       {experiences.map((item, index) => {
         const { title, position, period, content } = item;
 
         return (
-          <div
-            className={
-              index === 0
-                ? "otherexperiences__card pt0"
-                : "otherexperiences__card"
-            }
-            key={index}
-          >
+          <div className={index === 0 ? "otherexperiences__card pt0" : "otherexperiences__card"} key={index}>
             <div className="otherexperiences__card__title">
               {title}
               <span className="period__mark">.</span>
@@ -45,6 +41,6 @@ export const Experience = () => {
           </div>
         );
       })}
-    </div>
+    </Fragment>
   );
 };
