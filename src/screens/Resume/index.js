@@ -1,7 +1,9 @@
 import React from "react";
 import "./styles.css";
 
-import { Certification, Education, Experience } from "../../components/Resume";
+import { Certification } from "../../components/certification";
+import { Experience } from "../../components/experience";
+import { Education } from "../../components/education";
 
 const TitleBar = () => {
   return (
@@ -33,8 +35,17 @@ const Resume = (props) => {
         </p>
 
         <p className="resume-intro">
-          Self-driven, passionate about learning new skills and believe that leveraging technology is best way to create social impact. In
-          my free time, I often enjoy playing drums and travel around to experience new culture.
+          Over 6 years of experience in software engineering, I have successfully delivered innovative mobile applications and built robust
+          backend systems.
+          <br />
+          <br />
+          I have a strong background in Typescript (Javascript) and technologies such as React, Node.js, and AWS with a proven track record
+          of optimizing data processing and scaling applications for large user bases. I have also experience in Java Spring and Python
+          programming.
+          <br />
+          <br />
+          As a passionate problem solver for learning and continuous improvement, I am excited to bring my skills and experience to new
+          challenges and make a positive impact through my work.
           <br />
         </p>
 
@@ -311,7 +322,7 @@ const Resume = (props) => {
           </div>
         </div>
 
-        <SectionTitle title={"Education"} />
+        {/* <SectionTitle title={"Education"} /> */}
         <Education />
         <SectionTitle title={"Experience"} />
         <Experience />
