@@ -33,7 +33,7 @@ const Home = (props) => {
             </p>
             <div className="my-2">
               <p className="text-xs sm:text-base xl:text-lg">I am a software engineer with over 5+ years of experience.</p>
-              <p className="text-xs sm:text-base xl:text-lg">Launch and operate multiple mobile/web apps.</p>
+              <p className="text-xs sm:text-base xl:text-lg">Launched and operated multiple mobile/web apps.</p>
               <p className="text-xs sm:text-base xl:text-lg">Built robust backend systems implement microservices.</p>
               <p className="text-xs sm:text-base xl:text-lg">Strong background in Typescript, React, and Node.js.</p>
             </div>
