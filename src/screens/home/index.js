@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import "./styles.css";
 
 import SNU_LOGO from "../../assets/img/snu.png";
@@ -7,7 +7,6 @@ import UCLA_LOGO from "../../assets/img/ucla.png";
 
 function NavigateButton() {
   const navigate = useNavigate();
-
   return (
     <div className="flex justify-end">
       <button className="text-xs md:text-sm text-right pr-2" onClick={() => navigate("/resume")}>
@@ -17,7 +16,7 @@ function NavigateButton() {
   );
 }
 
-const Home = (props) => {
+const Home = () => {
   return (
     <div className="min-h-screen justify-space align-items">
       <div className="h-3 border bg-header-gradient w-full" />
