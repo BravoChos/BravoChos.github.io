@@ -1,29 +1,17 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 
 const PdfViewer = ({ path }) => {
-  const [width, setWidth] = useState(window.innerWidth);
-
-  useEffect(() => {
-    const handleResize = () => setWidth(window.innerWidth);
-    window.addEventListener("resize", handleResize);
-
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
-
   return (
-    <div className="responsive-iframe-container ">
-      <iframe
-        src={path}
-        style={{
-          position: "absolute",
-          top: 0,
-          left: 0,
-          width: `${width}px`,
-          height: "100vh",
-          border: "none",
-        }}
-        title="PDF Viewer"
-      />
+    <div className="w-full h-screen flex justify-center items-center bg-gray-100">
+      {/* Centered container for PDF */}
+      <div className="relative w-full h-0" style={{ paddingBottom: "141%" }}>
+        <iframe
+          src={path}
+          className="absolute top-0 left-0 w-full h-full"
+          title="Resume Viewer"
+          //   frameBorder="0"
+        ></iframe>
+      </div>
     </div>
   );
 };
