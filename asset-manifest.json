@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.ae2d4753.css",
-    "main.js": "/static/js/main.e075e00c.js",
+    "main.css": "/static/css/main.cde79402.css",
+    "main.js": "/static/js/main.190600cf.js",
     "static/media/ucla.png": "/static/media/ucla.eba5c9bb2bd052949a31.png",
     "static/media/snu.png": "/static/media/snu.a53b40207259d3df9eb0.png",
     "static/media/resume_2501.pdf": "/static/media/resume_2501.f4836553e86d4ed7cc57.pdf",
     "index.html": "/index.html",
-    "main.ae2d4753.css.map": "/static/css/main.ae2d4753.css.map",
-    "main.e075e00c.js.map": "/static/js/main.e075e00c.js.map"
+    "main.cde79402.css.map": "/static/css/main.cde79402.css.map",
+    "main.190600cf.js.map": "/static/js/main.190600cf.js.map"
   },
   "entrypoints": [
-    "static/css/main.ae2d4753.css",
-    "static/js/main.e075e00c.js"
+    "static/css/main.cde79402.css",
+    "static/js/main.190600cf.js"
   ]
 }
