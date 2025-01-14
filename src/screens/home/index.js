@@ -8,9 +8,11 @@ import UCLA_LOGO from "../../assets/img/ucla.png";
 function NavigateButton() {
   const navigate = useNavigate();
   return (
-    <div className="flex justify-end">
-      <button className="text-xs md:text-sm text-right pr-2" onClick={() => navigate("/resume")}>
-        last updated 2025.01.01
+    <div className="flex justify-end items-end">
+      <button
+        className="text-center text-xs w-18 bg-custom-blue text-white font-semibold rounded shadow-md hover:bg-blue-600 transition px-2 py-0.5"
+        onClick={() => navigate("/resume")}>
+        pdf version
       </button>
     </div>
   );
@@ -24,6 +26,7 @@ const Home = () => {
         <p className="w-full text-4xl sm:text-5xl xl:text-7xl font-bold">
           Hello! <br /> I'm Song Cho<span className="text-custom-blue">.</span>
         </p>
+        <NavigateButton />
 
         {/* Technical Skills */}
         <div className="my-4 border-b pb-4">
@@ -224,9 +227,14 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </div>
 
-      <NavigateButton />
+        <div className="flex justify-end text-xs md:text-sm">
+          <div className="flex flex-col justify-end items-end">
+            <text className="justify-end">last updated 2025.01.13</text>
+          </div>
+        </div>
+      </div>
+      <div className="h-3 border bg-header-gradient w-full" />
     </div>
   );
 };
