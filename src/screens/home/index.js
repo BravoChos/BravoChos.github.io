@@ -72,7 +72,7 @@ const Home = () => {
                 <p className="text-xs sm:text-base xl:text-lg font-bold">
                   Tech Stack<span className="text-custom-blue">.</span>
                 </p>
-                <p className="text-xs sm:text-base xl:text-lg">Java, Sprint boot, Datadog, Python AWS Airflow, ECS</p>
+                <p className="text-xs sm:text-base xl:text-lg">Java, Sprint boot, Datadog, Python, AWS Airflow, ECS</p>
               </div>
               <div className="my-">
                 <p className="text-xs sm:text-base xl:text-lg font-bold">
@@ -205,7 +205,7 @@ const Home = () => {
             Education<span className="text-custom-blue">.</span>
           </p>
           <div className="flex items-center space-x-2 my-2">
-            <img src={UCLA_LOGO} alt="logo" className="w-16 md:w-20 lg:w-24 h-auto " />
+            <img src={UCLA_LOGO} alt="logo" className="w-12 md:w-16 lg:w-20 h-auto" />
             <div className="flex-1 ">
               <div className="text-md lg:text-xl font-bold flex items-center">
                 University of California, Los Angeles<span className="text-blue-500">.</span>
@@ -216,7 +216,7 @@ const Home = () => {
             </div>
           </div>
           <div className="flex items-center space-x-2 my-2">
-            <img src={SNU_LOGO} alt="logo" className="w-16 md:w-20 lg:w-24 h-auto" />
+            <img src={SNU_LOGO} alt="logo" className="w-12 md:w-16 lg:w-20 h-auto" />
             <div className="flex-1">
               <div className="text-md lg:text-xl font-bold flex items-center">
                 Seoul National University
